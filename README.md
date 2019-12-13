@@ -17,6 +17,9 @@ If you use this code, please cite our paper:
 
 _This is not an officially supported Google product._
 
+![Five smartphones synchronously capture a balloon filled with red water being popped.](https://i.imgur.com/rCkC5jW.gif)
+_Five smartphones synchronously capture a balloon filled with red water being popped to within 250 μs timing accuracy._
+
 ## Android App to Capture Synchronized Images
 
 The app has been tested on the Google Pixel 2, 3, and 4.
