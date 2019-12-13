@@ -1,0 +1,106 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+    android:layout_marginVertical="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin">
+
+        <com.googleresearch.capturesync.AutoFitSurfaceView
+            android:id="@+id/viewfinder_surface_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/status_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/status_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/status_text_uninitialized"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/control_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/capture_still_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/action_capture_still"/>
+
+            <TextView
+                android:id="@+id/softwaresync_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SoftwareSync"
+                android:textSize="8sp" />
+
+            <Button
+                android:id="@+id/phase_align_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/action_phase_align"/>
+
+            <TextView
+                android:id="@+id/phase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/status_text_phase"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/sensor_exposure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/status_text_exposure"
+                android:textSize="10sp" />
+
+            <SeekBar
+                android:id="@+id/exposure_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="10" />
+
+            <TextView
+                android:id="@+id/sensor_sensitivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/status_text_sensitivity"
+                android:textSize="10sp" />
+
+            <SeekBar
+                android:id="@+id/sensitivity_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="10"
+                android:progress="3" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

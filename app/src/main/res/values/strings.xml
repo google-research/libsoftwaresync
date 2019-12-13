@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Synchronized simplecamera2 app. [CHAR_LIMIT=80] -->
+    <string name="app_name">CaptureSync</string>
+    <!-- Request synchronized still. [CHAR_LIMIT=80] -->
+    <string name="action_capture_still">Capture Still</string>
+    <!-- Request phase alignment. [CHAR_LIMIT=80] -->
+    <string name="action_phase_align">Align Phases</string>
+    <!-- Request send 2A values. [CHAR_LIMIT=80] -->
+    <string name="action_send_2a">Align 2A</string>
+
+    <!-- Status text. [CHAR_LIMIT=80] -->
+    <string name="status_text_uninitialized">SoftwareSync Demo App</string>
+    <!-- Status text for current phase. [CHAR_LIMIT=80] -->
+    <string name="status_text_phase">Phase</string>
+    <!-- Slider text for exposure. [CHAR_LIMIT=80] -->
+    <string name="status_text_exposure">Exposure:</string>
+    <!-- Slider text for sensitivity. [CHAR_LIMIT=80] -->
+    <string name="status_text_sensitivity">Sensitivity:</string>
+
+    <!-- No permissions. [CHAR_LIMIT=80] -->
+    <string name="error_msg_no_permission">You must grant camera, read, and write permissions</string>
+    <!-- Can't open Camera2. [CHAR_LIMIT=80] -->
+    <string name="error_msg_cant_open_camera2">Failed to open Camera2 service</string>
+    <!-- No viewfinder frame. [CHAR_LIMIT=80] -->
+    <string name="error_msg_no_viewfinder_frame">Failed to capture viewfinder frame</string>
+    <!-- No image outputs. [CHAR_LIMIT=80] -->
+    <string name="error_msg_no_outputs">No image outputs chosen</string>
+    <!-- Buffers. [CHAR_LIMIT=80] -->
+    <string name="pref_buffer_settings">Buffers</string>
+
+</resources>
